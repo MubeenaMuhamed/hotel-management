@@ -1,0 +1,52 @@
+
+.ios, .md {
+ 
+page-available-rooms {
+ 
+        ion-header{
+            height: 70px;
+        }
+        ion-content{
+            background-color: map-get($colors, dark);
+        }
+ 
+        .headerimage {
+               width: 90%;
+    height: 200px;
+    position: absolute;
+    right: 0;;
+        }
+ 
+        ion-card {
+            background-color: map-get($colors, dark);
+            position: relative;
+            text-align: center;
+            margin: 0;
+            width: 100%;
+        }
+ 
+        .card-title-container {
+               /* position: absolute; */
+    top: 27%;
+    width: 8%;
+    /* height: 100%; */
+    /* right: 0; */
+    margin-bottom: 52px;
+    margin-top: 40px;
+        }
+ 
+        .card-title {
+            font-size: 1.5em;
+            text-transform: capitalize;
+            font-weight: bold;
+            display: inline;
+            color: #fff;
+        }
+ 
+        .room-description ion-icon {
+            margin-left: 10px;
+        }
+    }
+ 
+}
+
