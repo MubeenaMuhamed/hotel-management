@@ -15,7 +15,17 @@
   <p>
     Welcome to <strong>Dreamatico</strong>, we hope you enjoy your stay.
   </p>
- 
+  <div flex-gt-xs>
+      <h4>Opening the calendar when the input is focused</h4>
+      <input type="date" name="bday">
+    </div>
+
+       <div class="form-row show-inputbtns">
+        <input type="date" data-date-inline-picker="false" data-date-popover='{
+  "inline": true
+}' />
+    </div>
+
   <button (click)="openSearch()" ion-button full color="light">Find a Room</button>
  
 </ion-content>
